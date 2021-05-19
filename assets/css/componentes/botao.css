@@ -1,0 +1,30 @@
+.botao__cadastrar {
+	display: block;
+
+	background-color: rgb(231, 137, 164);
+	border-radius: .5rem;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	font-size: 1.4rem;
+	height: 100%;
+	padding: .5rem 2rem;
+	margin: 2rem auto 1rem auto;
+	outline: none;
+	max-width: 100%;
+	transition: all 0.3s ease;
+}
+
+.botao__cadastrar:hover {
+	opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+	.botao__cadastrar {
+		font-size: 1rem;
+		padding: .5rem;
+	}
+
+	.botao__cadastrar:hover {
+		opacity: 1;
+	}
+}

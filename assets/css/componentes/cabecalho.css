@@ -1,0 +1,17 @@
+.cabecalho {
+	height: 100%;
+	max-width: 14rem;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+
+.cabecalho__logo {
+	height: 14rem;
+	max-width: 14rem;
+}
+
+.cabecalho__titulo {
+	display: none;
+    line-height: 0;
+	opacity: 0;
+}
