@@ -1,9 +1,11 @@
 .dashboard {
 	background-color: rgb(255, 255, 255);
 	border-radius: 0 0 .5rem .5rem;
-	height: 360px;
+
 	padding: 1rem;
 	margin: 0 auto 2rem auto;
+
+	height: 420px;
 	max-width: 760px;
 	position: relative;
 }
@@ -12,6 +14,7 @@
 	border: none;
 	color: rgb(255, 255, 255);
 	font-size: 1.4rem;
+
 	height: 80%;
 	width: 80%;
 
@@ -22,8 +25,9 @@
 }
 
 .dashboard__table-column {
-	height: 50%;
 	vertical-align: middle;
+
+	height: 50%;
 	width: 50%;
 }
 
@@ -43,10 +47,11 @@
 	background-color: rgb(204, 203, 203);
 	border-radius: .5rem;
 	cursor: pointer;
-	height: 6rem;
+
 	margin: 1rem;
 	padding: .5rem 2rem;
-	transition: all 0.3s ease;
+	
+	height: 6rem;
 }
 
 .dashboard__table a:hover {

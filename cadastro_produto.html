@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/componentes/dashboard.css">
     <link rel="stylesheet" href="assets/css/componentes/cadastro.css">
     <link rel="stylesheet" href="assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
@@ -36,28 +37,34 @@
                         href="cadastro_produto.html">Cadastre o Produto </a></li>
             </ul>
         </nav>
-        <section class="cadastro" style="height: 360px;">
-            <h2 class="cadastro__titulo">Cadastre o produto</h2>
-            <form class="formulario" action="./cadastro_concluido.html"">
-                <div class=" input-container">
-                <input name="nome" id="nome" class="input" type="text" placeholder="Nome">
-                <label class="input-label" for="nome">Nome</label>
-                <span class="input-mensagem-erro">Este campo não está válido</span>
-                </div>
+        <section class="cadastro" style="height: 420x;">
+            <form class="formulario" action="./cadastro_concluido.html" autocomplete="none">
                 <div class="input-container cadastro__preco-container">
-                    <input name="preco" id="preco" class="input" type="text" placeholder="Preço">
                     <label class="input-label" for="preco">Preço</label>
-                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                    <input name="preco" id="preco" class="input" type="text" data-tipo="preco" autocomplete="none"
+                        required>
+                </div>
+                <div class=" input-container">
+                    <label class="input-label" for="nome">Nome</label>
+                    <input name="nome" id="nome" class="input" type="text" placeholder="Tipo" data-tipo="nome" autocomplete="none"
+                        required>
                 </div>
                 <div class="input-container cadastro__descricao-container">
-                    <input class="input" name="descricao" id="descricao" placeholder="Descrição">
                     <label class="input-label" for="descricao">Descrição</label>
-                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                    <input class="input" name="descricao" id="descricao"
+                        placeholder="Finalidade do produto, tamanhos e prazo para entrega." wrap="hard" autocomplete="none" required>
                 </div>
                 <button class="botao__cadastrar">Cadastrar</button>
             </form>
         </section>
     </main>
-    <footer> Desenvolvido por Renata Marques | 2021</footer>
+    <footer class="rodape"> Desenvolvido por Renata Marques | 2021</footer>
+    <script type="module" src="scripts/app.js"></script>
+
+    <!--importação de máscara para item preço-->
+    <script
+        src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
+
+</body>
 
 </html>

@@ -4,6 +4,7 @@
 
 	margin: 0 auto;
 	padding-top: 2rem;
+
 	max-width: 760px;
 }
 
@@ -16,9 +17,9 @@
 	color: rgb(255, 255, 255);
 	font-size: 1.2rem;
 	outline: none;
-	padding: .5rem 2rem;
 	text-align: center;
-	transition: all 0.3s ease;
+
+	padding: .5rem 2rem;
 	width: 33.33%;
 }
 
@@ -36,9 +37,6 @@
 	opacity: .8;
 }
 
-.menu__link:active {
-	opacity: .8;
-}
 
 .menu__link a {
 	cursor: pointer;
