@@ -10,7 +10,7 @@ Conceitos estudados:
 
 # preview
 
-[![app_data_agenda](https://github.com/renatamoss/app_data_agenda/blob/main/assets/images/agenda_compromissos_gif.gif?raw=true)](https://renatamoss.github.io/darre_dashboard/cadastro_cliente.html)
+[![app_data_agenda](https://github.com/renatamoss/darre_dashboard/blob/main/assets/img/darre_dashboard.gif?raw=true)](https://renatamoss.github.io/darre_dashboard/cadastro_cliente.html)
 
 
 Projeto desenvolvido durante o curso *Trilha Front-End Alura*.
